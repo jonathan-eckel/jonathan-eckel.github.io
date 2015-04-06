@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://jonathan-eckel.github.io/jonathan.eckel
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://jonathan-eckel.github.io
+title: Jonathan Eckel
+subtitle: Data Scientist
+author: Jonathan Eckel
 simple_search: https://www.google.com/search
 description:
 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: jonathan.eckel@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -64,10 +64,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: jonathan-eckel
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
+
+# LinkedIn
+linkedin_user: jonathaneckel
 
 # Twitter
 twitter_user:

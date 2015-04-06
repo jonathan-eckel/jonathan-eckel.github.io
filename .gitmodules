@@ -1,0 +1,9 @@
+[submodule ".themes/classic-martinb"]
+	path = .themes/classic-martinb
+	url = https://github.com/martinbmadsen/classic-martinb
+[submodule ".themes/MediumFox"]
+	path = .themes/MediumFox
+	url = https://github.com/sevenadrian/MediumFox
+[submodule ".themes/hpstr"]
+	path = .themes/hpstr
+	url = https://github.com/jez/hpstr-theme.git
