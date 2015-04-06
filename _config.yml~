@@ -7,7 +7,7 @@ title: Jonathan Eckel
 subtitle: Data Scientist
 author: Jonathan Eckel
 simple_search: https://www.google.com/search
-description:
+description: My site
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: jonathan.eckel@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -69,9 +69,12 @@ github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
+# LinkedIn
+linkedin_user: jonathaneckel
+
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
