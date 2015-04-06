@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://jonathan-eckel.github.io/jonathan.eckel/atom.xml" rel="self"/>
-  <link href="http://jonathan-eckel.github.io/jonathan.eckel/"/>
-  <updated>2015-04-06T16:17:49-04:00</updated>
-  <id>http://jonathan-eckel.github.io/jonathan.eckel/</id>
+  <title><![CDATA[Jonathan Eckel]]></title>
+  <link href="http://jonathan-eckel.github.io/atom.xml" rel="self"/>
+  <link href="http://jonathan-eckel.github.io/"/>
+  <updated>2015-04-06T17:55:30-04:00</updated>
+  <id>http://jonathan-eckel.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Jonathan Eckel]]></name>
+    <email><![CDATA[jonathan.eckel@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My First Blog Post]]></title>
+    <link href="http://jonathan-eckel.github.io/blog/2015/04/06/my-first-blog-post/"/>
+    <updated>2015-04-06T17:51:19-04:00</updated>
+    <id>http://jonathan-eckel.github.io/blog/2015/04/06/my-first-blog-post</id>
+    <content type="html"><![CDATA[<p>Hello world!</p>
+]]></content>
+  </entry>
   
 </feed>

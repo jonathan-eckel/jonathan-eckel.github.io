@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://jonathan-eckel.github.io/jonathan.eckel/sitemap.xml 
+Sitemap: http://jonathan-eckel.github.io/sitemap.xml 
