@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jonathan Eckel]]></title>
-  <link href="http://jonathan-eckel.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Tech | Jonathan Eckel]]></title>
+  <link href="http://jonathan-eckel.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://jonathan-eckel.github.io/"/>
   <updated>2015-04-06T19:21:45-04:00</updated>
   <id>http://jonathan-eckel.github.io/</id>
