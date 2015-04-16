@@ -4,7 +4,7 @@
   <title><![CDATA[Jonathan Eckel]]></title>
   <link href="http://jonathan-eckel.github.io/atom.xml" rel="self"/>
   <link href="http://jonathan-eckel.github.io/"/>
-  <updated>2015-04-16T11:10:06-04:00</updated>
+  <updated>2015-04-16T11:50:06-04:00</updated>
   <id>http://jonathan-eckel.github.io/</id>
   <author>
     <name><![CDATA[Jonathan Eckel]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[My First Blog Post]]></title>
-    <link href="http://jonathan-eckel.github.io/blog/2015/04/06/my-first-blog-post/"/>
-    <updated>2015-04-06T00:00:00-04:00</updated>
-    <id>http://jonathan-eckel.github.io/blog/2015/04/06/my-first-blog-post</id>
-    <content type="html"><![CDATA[<p>Hello world!</p>
+    <title type="html"><![CDATA[Coming Soon]]></title>
+    <link href="http://jonathan-eckel.github.io/blog/2015/04/16/coming-soon/"/>
+    <updated>2015-04-16T11:30:59-04:00</updated>
+    <id>http://jonathan-eckel.github.io/blog/2015/04/16/coming-soon</id>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
