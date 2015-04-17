@@ -1,13 +1,16 @@
 <section>
-  <h1><a href="#">martinbmadsen.dk</a></h1>
-  <p>The website of me, <a href="https://google.com/+MartinMadsen1">Martin Madsen</a>.</p>
-  <p>You can read more about me on my <a href="/about/">about</a> page. To see what I'm working on, check out my GitHub page <a href="https://github.com/fapper">here</a>.</p>
+  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
   <div class="social-icons">
     {% include asides/social/facebook.html %}
     {% include asides/social/linkedin.html %}
     {% include asides/social/googleplus.html %}
     {% include asides/social/github.html %}
     {% include asides/social/twitter.html %}
-    <a href="/atom.xml"><img src="/images/social/rss.png" alt="RSS" /></a>
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}"><img src="/images/social/email_inverted.png" alt="email" /></a>
+    {% endif %}
+    {% if site.subscribe_rss %}
+    <a href="{{ site.subscribe_rss }}"><img src="/images/social/rss.png" alt="RSS" /></a>
+    {% endif %}
   </div>
 </section>

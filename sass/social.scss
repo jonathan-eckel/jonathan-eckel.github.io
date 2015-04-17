@@ -1,0 +1,16 @@
+div.social-icons {
+  display: inline;
+  a {
+    white-space: normal;
+  }
+  a:hover {
+    opacity: 0.75;
+  }
+  img {
+    width: 40px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0) 0 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0) 0 0px;
+  }
+}
