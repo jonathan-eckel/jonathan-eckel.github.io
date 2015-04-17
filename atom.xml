@@ -4,11 +4,11 @@
   <title><![CDATA[Jonathan Eckel]]></title>
   <link href="http://jonathan-eckel.github.io/atom.xml" rel="self"/>
   <link href="http://jonathan-eckel.github.io/"/>
-  <updated>2015-04-16T20:25:24-04:00</updated>
+  <updated>2015-04-17T14:07:34-04:00</updated>
   <id>http://jonathan-eckel.github.io/</id>
   <author>
     <name><![CDATA[Jonathan Eckel]]></name>
-    
+    <email><![CDATA[jonathan.eckel@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
