@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: jonathan.eckel@gmail.com
+#email: jonathan.eckel@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -74,7 +74,7 @@ linkedin_user: jonathaneckel
 
 # Twitter
 twitter_user:
-twitter_tweet_button: false
+twitter_tweet_button: true
 
 # Google +1
 google_plus_one: false
