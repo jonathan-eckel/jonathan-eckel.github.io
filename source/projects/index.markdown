@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "Projects"
+date: 2015-04-18
 comments: false
 sharing: false
-footer: true
+footer: false
 ---
 
 [bs]: http://beersomme.com

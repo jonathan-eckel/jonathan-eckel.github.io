@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "Projects"
+date: 2015-04-18 13:36
 comments: false
 sharing: false
-footer: true
+footer: false
 ---
 
 [bs]: http://beersomme.com
@@ -14,7 +15,10 @@ footer: true
 {% img left /images/beer_background.jpg 300 200 %}
 
 For my Insight project I created [beersomme] [bs],
- a bar recommender app based on beer preference. I combined beer descriptions from [Ratebeer](http://www.ratebeer.com) and local taplist information from [Untappd](http://untappd.com) to provide recommendations to the user on where to get their next beer.
+ a bar recommender app based on beer preference. 
+I scraped beer descriptions from [Ratebeer](http://www.ratebeer.com) and extracted keywords relevant to the flavor of each beer.  Using these features, I found which beers were most similar to each other. 
+To find nearby beers, I used local beer check-in information from [Untappd](http://untappd.com) to act as a proxy for beer lists.
+By combining these data sources, I provide recommendations to the user on where to get their next beer.
 
 
 
