@@ -8,6 +8,7 @@ group :development do
   gem 'octopress-tag-helpers'
   gem 'jekyll-sitemap'
   gem 'rdiscount', '~> 2.1.7'
+  gem 'kramdown'
   gem 'RedCloth', '~> 4.2.9'
   gem 'haml', '~> 4.0'
   gem 'compass', '~> 1.0.1'
