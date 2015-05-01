@@ -2,4 +2,5 @@
 [Ratebeer]: http://www.ratebeer.com "Ratebeer"
 [Untappd]: http://untappd.com "Untappd"
 [Foursquare]: http://foursquare.com "Foursquare"
-
+[Insight]: http://insightdatascience.com "Insight Data Science"
+[UA]: http://www.arizona.edu "University of Arizona"
