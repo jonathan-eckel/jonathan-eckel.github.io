@@ -21,6 +21,7 @@
   <link rel="canonical" href="http://jonathan-eckel.github.io/resume/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
   <link href="" rel="alternate" title="Jonathan Eckel" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -29,6 +30,23 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<!--Mathjax -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+        displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+      //,
+      //displayAlign: "left",
+      //displayIndent: "2em"
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
 
   
   <script type="text/javascript">
@@ -85,12 +103,11 @@ Updated: <time class='entry-date' datetime='2015-04-19'><span class='date'>April
 <br />
 A list of my publications can be found <a href="http://inspirehep.net/search?p=exactauthor%3AJ.Eckel.1" title="publications">here</a>.</p>
 
-<h2>Education</h2>
-
+<h2 id="education">Education</h2>
 <dl>
-<dt><strong>University of Arizona</strong>, Tucson, Arizona <br /></dt>
-<dt>Ph.D., Physics, Winter 2014</dt>
-<dd>  <em>Advisor</em>: Shufang Su</dd>
+  <dt><strong>University of Arizona</strong>, Tucson, Arizona <br /></dt>
+  <dt>Ph.D., Physics, Winter 2014</dt>
+  <dd><em>Advisor</em>: Shufang Su</dd>
 </dl>
 
 <p>M.S., Physics, Fall 2010</p>
@@ -98,69 +115,63 @@ A list of my publications can be found <a href="http://inspirehep.net/search?p=e
 <p><strong>Carnegie Mellon University</strong>, Pittsburgh, Pennsylvania <br />
 B.S., Physics, Spring 2008</p>
 
-<h2>Work Experience</h2>
+<h2 id="work-experience">Work Experience</h2>
 
 <p><strong>Insight Data Science</strong>, New York, New York <br />
-<em>Fellow</em>, January 2015 &ndash; Present</p>
+<em>Fellow</em>, January 2015 – Present</p>
 
 <ul>
-<li>Created <a href="http://beersomme.com" title="beersomme">beersomme.com</a>, a bar recommender based on beer preference</li>
-<li>Processed raw JSON files into a MySQL database to store beer description data</li>
-<li>Used natural language processing to extract key features from each beer description</li>
-<li>Designed a content-based recommender system using scikit-learn to create a beer similarity matrix</li>
-<li>Retrieved local taplist data using Untappd API</li>
-<li>Deployed an interactive frontend using Flask and Bootstrap</li>
+  <li>Created <a href="http://beersomme.com" title="beersomme">beersomme.com</a>, a bar recommender based on beer preference</li>
+  <li>Processed raw JSON files into a MySQL database to store beer description data</li>
+  <li>Used natural language processing to extract key features from each beer description</li>
+  <li>Designed a content-based recommender system using scikit-learn to create a beer similarity matrix</li>
+  <li>Retrieved local taplist data using Untappd API</li>
+  <li>Deployed an interactive frontend using Flask and Bootstrap</li>
 </ul>
-
 
 <p><strong>University of Arizona</strong>, Tucson, Arizona <br />
-<em>Research Assistant Physics Dept.</em>, July 2010 &ndash; December 2014</p>
+<em>Research Assistant Physics Dept.</em>, July 2010 – December 2014</p>
 
 <ul>
-<li>Extended the discovery potential by a factor of two for new fundamental particles by utilizing a distinctive feature in the signal dataset from Monte-Carlo simulation in C++</li>
-<li>Combined results from multiple software packages using shell scripts and data wrangling techniques using Python</li>
-<li>Calculated confidence intervals in the parameter space of the theory to identify regions of interest for experimental searches</li>
+  <li>Extended the discovery potential by a factor of two for new fundamental particles by utilizing a distinctive feature in the signal dataset from Monte-Carlo simulation in C++</li>
+  <li>Combined results from multiple software packages using shell scripts and data wrangling techniques using Python</li>
+  <li>Calculated confidence intervals in the parameter space of the theory to identify regions of interest for experimental searches</li>
 </ul>
-
 
 <p><strong>Intersystems</strong>, Cambridge, Massachusetts <br />
-<em>Product Support Intern</em>, May &ndash; August, 2013</p>
+<em>Product Support Intern</em>, May – August, 2013</p>
 
 <ul>
-<li>Facilitated upgrade of virtual machine application from deprecated state to current software version which enabled new features such as sharing virtual machines between users</li>
-<li>Implemented REST API method calls to integrate application with local database</li>
+  <li>Facilitated upgrade of virtual machine application from deprecated state to current software version which enabled new features such as sharing virtual machines between users</li>
+  <li>Implemented REST API method calls to integrate application with local database</li>
 </ul>
-
 
 <p><strong>University of Arizona</strong>, Tucson, Arizona <br />
-<em>Research Assistant Astronomy Dept.</em>, July 2008 &ndash; July 2010</p>
+<em>Research Assistant Astronomy Dept.</em>, July 2008 – July 2010</p>
 
 <ul>
-<li>Utilized a &ldquo;friends-of-friends&rdquo; clustering algorithm for analysis of N-body simulation data in C</li>
-<li>Improved an analysis code to implement a simple data compression algorithm to reduce the size by a factor or two</li>
-<li>Performed administrator duties including software installation, troubleshooting reported problems, and managing simulation runs for the group computing cluster</li>
+  <li>Utilized a &#8220;friends-of-friends’’ clustering algorithm for analysis of N-body simulation data in C</li>
+  <li>Improved an analysis code to implement a simple data compression algorithm to reduce the size by a factor or two</li>
+  <li>Performed administrator duties including software installation, troubleshooting reported problems, and managing simulation runs for the group computing cluster</li>
 </ul>
 
-
-<h2>Teaching Experience</h2>
+<h2 id="teaching-experience">Teaching Experience</h2>
 
 <p><strong>University of Arizona</strong>, Tucson, Arizona <br />
-<em>Teaching Assistant: Computational Physics</em>, August 2013 &ndash; May 2014</p>
+<em>Teaching Assistant: Computational Physics</em>, August 2013 – May 2014</p>
 
 <ul>
-<li>Assisted in teaching programming fundamentals and computational algorithms used in scientific computing in C</li>
-<li>Instructed students in techniques of code validation and troubleshooting</li>
+  <li>Assisted in teaching programming fundamentals and computational algorithms used in scientific computing in C</li>
+  <li>Instructed students in techniques of code validation and troubleshooting</li>
 </ul>
-
 
 <p><strong>University of Arizona</strong>, Tucson, Arizona <br />
-<em>Teaching Assistant: Electronics</em>, January &ndash; May, 2009; January &ndash; May, 2012</p>
+<em>Teaching Assistant: Electronics</em>, January – May, 2009; January – May, 2012</p>
 
 <ul>
-<li>Prepared students for the current lab while connecting topics to external lecture</li>
-<li>Instructed students in experimental techniques including data and error analysis</li>
+  <li>Prepared students for the current lab while connecting topics to external lecture</li>
+  <li>Instructed students in experimental techniques including data and error analysis</li>
 </ul>
-
 
   
 </article>
@@ -185,6 +196,8 @@ B.S., Physics, Spring 2008</p>
 
 
     
+  <a href="https://twitter.com/jonathan_eckel"><img src="/images/social/twitter.png" alt="Twitter" /></a>
+
 
     
     <a href="mailto:jonathan.eckel@gmail.com"><img src="/images/social/email_inverted.png" alt="email" /></a>
