@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projects"
-date: 2015-04-18
+date: 2015-06-01
 comments: false
 sharing: false
 footer: false
@@ -9,8 +9,7 @@ footer: false
 
 {% include reflink.markdown %}
 
-## beersomme --- Find a bar, drink awesome beer!
-[beersomme.com] [beersomme]
+<h2><a href="/projects/beersomme">beersomme --- Find a bar, drink awesome beer!</a></h2>
 
 {% img left /images/beer_background.jpg 300 200 %}
 
