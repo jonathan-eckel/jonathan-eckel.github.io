@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "beersomme"
-#date: 2015-04-23 13:16
 comments: false
 sharing: true
 footer: true
@@ -13,6 +12,7 @@ footer: true
 {:toc}
 
 ## Intro and Motivation
+
 I'm what you might call a beer connoisseur.  I love trying new beer.  Not only that, but I like to keep track of what beer I'm drinking and where I'm drinking that beer.  Luckily, there's an app for that. [Untappd] is a social network for beer aficionados, like myself. Users can "check-in" the beer they are currently drinking and the place they're drinking it.
 Untappd also lets the user harness that check-in information.  For example, a user can search to see if a specific beer is nearby.  The app searches through nearby check-ins to find the most recent place that beer was checked-in. While its not perfect, the check-ins act as a proxy for beer list information.  But what if I'm in New York craving a [Dragoon IPA](http://www.dragoonbrewing.com/dragoon-ipa/), a delicious IPA from Tucson, Arizona.  I know I can't find that in New York --- and as expected, the search fails.  But if we can't find that particular beer, certainly we can find something similar. This is what inspired me to create **beersomme** --- if I'm craving a certain beer, have an app find similar beers nearby to recommend the best place to go have a beer (or two).
 
@@ -105,6 +105,7 @@ Next, I remove all words that will not help in representing beers.  These includ
 Now, I can represent each beer as a sparse vector of word counts.  The vector is $$n$$-dimensional, where $$n$$ is the number of unique words in the corpus.  The values in each dimension correspond to the frequency of the word in each beer description.  In order to deal with additional common words that may pop up (beer, malt, etc...), I use a [tf-idf](http://en.wikipedia.org/wiki/Tf%E2%80%93idf) (term frequency -- inverse document frequency) weighting. This down-weights words that occur frequently throughout the corpus.  Conversely, it up-weights words that occur rarely in individual beer descriptions.  Performing this analysis on my corpus of beers results in the creation of a _term-document_ matrix, or in my case, a _keyword-beer_ matrix.  This is a sparse matrix with dimension: $$(\rm nwords ~\times ~ \rm nbeers)$$.  I will use this matrix to determine beer similarity.
 
 #### Beer Similarity {#beer-similarity}
+
 For each column of the _keyword-beer_ matrix, I have a beer vector in word space.  Next, I need to choose a distance metric to determine which beers are closest to each other.  Since the vectors are normalized (from tf-idf) I use a [cosine similarity](http://en.wikipedia.org/wiki/Cosine_similarity) distance metric.  So distance is measured by the angle of separation between the two vectors as follows:
   
 $$
@@ -150,9 +151,19 @@ As you can see, there is a strong separation between these three differing beer 
 
 These flavors match well with the beer styles represented in those regions.  We see that the beer description data are robust. The bag-of-words method is sufficient in separating beers by style into localized clusters.  As a result, **beersomme** will recommend beers of similar style due to their proximity in the graph.  We also see that recommendations across styles can occur for outlier beers of a given style.
 
+## Future Work
+
+The current version of **beersomme** works quite well, but is far from complete.  Additional work can be done in the following areas.
+
+Improvements:
+
+- More robust way of matching beers across databases (Ratebeer and Untappd)
+- Use additional NLP techniques beyond Bag-of-Words
+- Provide reasoning as to why certain beers are recommended (which flavors match).  Use [Latent Semantic Analysis](http://en.wikipedia.org/wiki/Latent_semantic_analysis).
+
 ## Closing Thoughts
 
 This project was built in three weeks during the [Insight Data Science Program] [Insight]. I enjoyed learning and implementing new technologies to create **beersomme**. Building this project gave me the opportunity to learn and apply new techniques including natural language processing, recommender systems, and web scraping. Enjoy drinking awesome beer using **beersomme**!
 
-If you have any questions about this project feel free to contact me at [jonathan.eckel@gmail.com](mailto:jonathan.eckel@gmail.com) or tweet me at [@jonathan_eckel](http://twitter.com/jonathan_eckel).
+If you have any questions about this project feel free to contact me at [jonathan.eckel@gmail.com](mailto:jonathan.eckel@gmail.com) or tweet me at [@jonathan_eckel](http://twitter.com/jonathan_eckel).  Or dive into the code on [GitHub](https://github.com/jonathan-eckel/beersomme).
 
