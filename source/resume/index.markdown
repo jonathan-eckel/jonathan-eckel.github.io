@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resume"
-date: 2015-04-19
+date: 2015-11-07
 comments: false
 sharing: false
 footer: false
@@ -24,8 +24,13 @@ B.S., Physics, Spring 2008
 
 ## Work Experience
 
+**LearnVest**, New York, New York <br />
+_Data Analyst_, July 2015 -- Present
+
+- Build tools and use data to support the Growth and Innovation Team to increase customer acquisition and engagement metrics.
+
 **Insight Data Science**, New York, New York <br />
-_Fellow_, January 2015 -- Present
+_Fellow_, January -- July, 2015
 
 - Created [beersomme.com](http://beersomme.com "beersomme"), a bar recommender based on beer preference
 - Processed raw JSON files into a MySQL database to store beer description data
