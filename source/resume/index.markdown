@@ -27,7 +27,11 @@ B.S., Physics, Spring 2008
 **LearnVest**, New York, New York <br />
 _Data Analyst_, July 2015 -- Present
 
-- Build tools and use data to support the Growth and Innovation Team to increase customer acquisition and engagement metrics.
+- Lead experimentation and A/B testing for email and user signup experience using Optimizely
+- Built attribution model to determine lift from offline acquisition channels (eg. podcasts, radio, TV)
+- Built model to identify users who are most likely to proceed through acquisition funnel using user demographics and engagement data
+- Identified valuable user data sources for ETL into centralized Redshift database
+- Technical representative for the Growth team on projects including Product, Tech and Data teams
 
 **Insight Data Science**, New York, New York <br />
 _Fellow_, January -- July, 2015
