@@ -1,31 +1,32 @@
 ---
 layout: page
 title: "Resume"
-date: 2015-11-07
+date: 2018-07-23
 comments: false
 sharing: false
 footer: false
 ---
 
-A pdf version of my resume can be found [here](/resume/resume.pdf "resume").
-<br />
-A list of my publications can be found [here](http://inspirehep.net/search?p=exactauthor%3AJ.Eckel.1 "publications").
-
-
-## Education
-**University of Arizona**, Tucson, Arizona <br />
-Ph.D., Physics, Winter 2014
-:   _Advisor_: Shufang Su
-
-M.S., Physics, Fall 2010
-
-**Carnegie Mellon University**, Pittsburgh, Pennsylvania <br />
-B.S., Physics, Spring 2008
-
 ## Work Experience
 
-**LearnVest**, New York, New York <br />
-_Data Analyst_, July 2015 -- Present
+### Splash
+_Data Scientist_, May 2017 - Present
+
+As a hybrid Data Scientist / Data Engineer, my focus is building data products for internal and external use.  I am responsible for building and maintaining data infrastructure for ETL pipelines and data products.
+
+#### Relevant Projects:
+
+Build and Maintain the Data Warehouse
+- Constructed a Redshift data warehouse with internal and external data sources for a unified data view of our users, clients and guests.
+- Champion the use of Apache Airflow to orchestrate all of Splash's ETL jobs.
+
+Data Science Prototypes:
+- Created an ROI dashboard for clients to surface success metrics of events.  For B2B clients, we used Salesforce data to calculate opportunity generation and deals closed attributed to events hosted.
+- Trained, tested and deployed a model to predict email opens by user. Provided support team predictors of large email send performance by clients.
+
+
+### Learnvest
+_Data Scientist_, July 2015 - May 2017
 
 - Lead experimentation and A/B testing for email and user signup experience using Optimizely
 - Built attribution model to determine lift from offline acquisition channels (eg. podcasts, radio, TV)
@@ -33,46 +34,17 @@ _Data Analyst_, July 2015 -- Present
 - Identified valuable user data sources for ETL into centralized Redshift database
 - Technical representative for the Growth team on projects including Product, Tech and Data teams
 
-**Insight Data Science**, New York, New York <br />
-_Fellow_, January -- July, 2015
 
-- Created [beersomme.com](http://beersomme.com "beersomme"), a bar recommender based on beer preference
-- Processed raw JSON files into a MySQL database to store beer description data
-- Used natural language processing to extract key features from each beer description
-- Designed a content-based recommender system using scikit-learn to create a beer similarity matrix
-- Retrieved local taplist data using Untappd API
-- Deployed an interactive frontend using Flask and Bootstrap
+## Education
+**Insight Data Science** <br />
+_Data Science Fellow_, January - July, 2015
 
-**University of Arizona**, Tucson, Arizona <br />
-_Research Assistant Physics Dept._, July 2010 -- December 2014
+An intensive 7 week post-doctoral training fellowship bridging the gap between academia & data science.
 
-- Extended the discovery potential by a factor of two for new fundamental particles by utilizing a distinctive feature in the signal dataset from Monte-Carlo simulation in C++
-- Combined results from multiple software packages using shell scripts and data wrangling techniques using Python
-- Calculated confidence intervals in the parameter space of the theory to identify regions of interest for experimental searches
+**University of Arizona** <br />
+Ph.D., Physics, Winter 2014 <br />
 
-**Intersystems**, Cambridge, Massachusetts <br />
-_Product Support Intern_, May -- August, 2013
+Ph.D research in Computational Particle Physics.
 
-- Facilitated upgrade of virtual machine application from deprecated state to current software version which enabled new features such as sharing virtual machines between users
-- Implemented REST API method calls to integrate application with local database
-
-**University of Arizona**, Tucson, Arizona <br />
-_Research Assistant Astronomy Dept._, July 2008 -- July 2010
-
-- Utilized a ``friends-of-friends'' clustering algorithm for analysis of N-body simulation data in C
-- Improved an analysis code to implement a simple data compression algorithm to reduce the size by a factor or two
-- Performed administrator duties including software installation, troubleshooting reported problems, and managing simulation runs for the group computing cluster
-
-## Teaching Experience
-
-**University of Arizona**, Tucson, Arizona <br />
-_Teaching Assistant: Computational Physics_, August 2013 -- May 2014
-
-- Assisted in teaching programming fundamentals and computational algorithms used in scientific computing in C
-- Instructed students in techniques of code validation and troubleshooting
-
-**University of Arizona**, Tucson, Arizona <br />
-_Teaching Assistant: Electronics_, January -- May, 2009; January -- May, 2012
-
-- Prepared students for the current lab while connecting topics to external lecture
-- Instructed students in experimental techniques including data and error analysis
+**Carnegie Mellon University** <br />
+B.S., Physics, Spring 2008 <br />
