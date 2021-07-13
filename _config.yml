@@ -60,6 +60,24 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
+include: ["_pages"]
+
 # header_pages:
 #   - projects
 #   - about.md

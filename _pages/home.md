@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+permalink: /
 ---
 
 Welcome to my page.  Here you'll find my resume and a summary of my side projects and other interests.

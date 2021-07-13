@@ -1,12 +1,10 @@
 ---
 layout: single
 title: "beersomme"
+toc: true
 ---
 
 {% include reflink.markdown %}
-
-* Will be replaced with the ToC
-{:toc}
 
 ## Intro and Motivation
 
