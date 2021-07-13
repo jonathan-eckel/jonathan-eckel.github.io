@@ -1,9 +1,6 @@
 ---
 layout: page
 title: "beersomme"
-comments: false
-sharing: true
-footer: true
 ---
 
 {% include reflink.markdown %}
@@ -21,7 +18,7 @@ Untappd also lets the user harness that check-in information.  For example, a us
 [beersomme] is an app I created over the course of three weeks at [Insight Data Science] [Insight].  The app makes bar recommendations based on the user's location and beer preference.
 
 
-![beersomme_input](/images/beersomme_input.png){:class="img-responsive"}
+![beersomme_input.png](/assets/img/beersomme_input.png){:class="img-responsive"}
 
 On the welcome page, the user is prompted for three pieces of information.
 
@@ -44,7 +41,7 @@ Tasting Notes: Citrus, cedar, pine & candied-orange flavors, floral.
 
 
 
-![beersomme_output](/images/beersomme_output.png){:class="img-responsive"}
+![beersomme_output.png](/assets/img/beersomme_output.png){:class="img-responsive"}
 
 The output page provides a list of nearby bars that have beers similar to "Dogfish Head 60 Minute IPA" available on tap.  The top two recommendations are to check out **Professor Thom's** and **Taproom No. 307**.  Each bar is recommended because each has two beers on tap that are of similar style, IPA or Pale Ale --- beers with hoppy flavors.  The process for determining beer similarity will be discussed [below](#beer-similarity). For additional information about the bar, the user can click on the Foursquare link in the top right corner of each listing.
 
@@ -57,7 +54,7 @@ The app consists of three parts:
 3. User Interface
 
 Below is a schematic of the data flow with methods and technologies shown:
-![beersomme_stack](/images/beersomme_stack.png){:class="img-responsive"}
+![beersomme_stack.png](/assets/img/beersomme_stack.png){:class="img-responsive"}
 
 Essentially, **beersomme** is combining two beer resources to provide meaningful recommendations on where to find your next beer.
 
@@ -113,7 +110,7 @@ $$
 \cos(\theta) = \frac{A \cdot B}{\lvert A \rvert ~ \lvert B \rvert}
 $$
 
-![cosine_similarity](/images/cosine_similarity.svg){:class="img-responsive"}
+![cosine_similarity.svg](/assets/img/cosine_similarity.svg){:class="img-responsive"}
 So if I have two beers, $$A$$ and $$B$$, they can be represented in some word space as shown here, separated by some angle 
 $$\theta$$.  Since these word vectors are positive (there can be no negative counts of word appearance), the angle $$\theta$$ varies between $$[0^\circ, 90^\circ]$$ and correspondingly $$\cos(\theta)$$ varies between $$[1, 0]$$, ranging from identical beers to completely different.
 
@@ -142,7 +139,7 @@ To demonstrate the power of using bag-of-words,
 I use [singular value decomposition](http://en.wikipedia.org/wiki/Singular_value_decomposition) to reduce the dimension of the word space.  Here, I plot three different styles of beer (IPA, Porter and Wheat) in this "flavor space".
 -->
 
-![flavor_space](/images/flavor_space.png){:class="img-responsive"}
+![flavor_space.png](/assets/img/flavor_space.png){:class="img-responsive"}
 
 As you can see, there is a strong separation between these three differing beer styles.  Examining the keywords that appear in the descriptions of beers in these three regions, we see the prominence of following flavors:
 
