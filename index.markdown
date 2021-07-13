@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Welcome to my page.  Here you'll find my resume and a summary of my side projects and other interests.
