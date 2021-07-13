@@ -37,7 +37,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+# github defaults, can't be changed
+highlighter: rouge
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # header_pages:
 #   - projects
