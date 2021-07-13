@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Projects"
 date: 2015-06-01
 ---
