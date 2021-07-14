@@ -48,6 +48,7 @@ author:
 # Build settings
 plugins:
   - jekyll-remote-theme
+  - jekyll-target-blank
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
@@ -60,8 +61,6 @@ kramdown:
 
 head_scripts:
   - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-  - /assets/js/mathjax-config.js
-  - /assets/js/open-in-blank.js
 
 defaults:
   # _posts
