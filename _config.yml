@@ -47,6 +47,7 @@ author:
 
 # Build settings
 plugins:
+  - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-target-blank
 
