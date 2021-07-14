@@ -1,7 +1,10 @@
 ---
 layout: single
 title: "beersomme"
+read_time: true
 toc: true
+date: 2015-06-01
+
 ---
 
 {% include reflink.markdown %}
@@ -29,14 +32,6 @@ On the welcome page, the user is prompted for three pieces of information.
 
 For example, let's look for bars near Union Square in New York City with beers similar to "Dogfish Head 60 Minute IPA".
 So we're looking for a sessionable IPA with citrus and floral notes.  Let's see what we can find...
-
-<!---
-From [Ratebeer](http://www.ratebeer.com/beer/dogfish-head-60-minute-ipa/7431/):
-
-Our flagship beer. A session India Pale Ale brewed with Warrior, Amarillo & 'Mystery Hop X.' A powerful East Coast I.P.A. with a lot of citrusy hop character. THE session beer for beer geeks like us! \\
-Tasting Notes: Citrus, cedar, pine & candied-orange flavors, floral.
--->
-
 
 
 ![beersomme_output.png](/assets/img/beersomme_output.png){:class="img-responsive"}
@@ -128,14 +123,6 @@ Besides using the eye test (or taste test in this case), we need a way to valida
 
 Let's try to visualize this "flavor space". I use [singular value decomposition](http://en.wikipedia.org/wiki/Singular_value_decomposition) to reduce the dimension of the word space and plot three different styles of beer: IPA, Porter and Wheat.
 
-<!--
-I have plotted three different styles of beer (IPA, Porter and Wheat) in a against two dimensions. These dimensions are generated from a [singular value decomposition](http://en.wikipedia.org/wiki/Singular_value_decomposition) to reduce the overall dimension of the word space.
--->
-
-<!--
-To demonstrate the power of using bag-of-words, 
-I use [singular value decomposition](http://en.wikipedia.org/wiki/Singular_value_decomposition) to reduce the dimension of the word space.  Here, I plot three different styles of beer (IPA, Porter and Wheat) in this "flavor space".
--->
 
 ![flavor_space.png](/assets/img/flavor_space.png){:class="img-responsive"}
 
@@ -162,4 +149,3 @@ Improvements:
 This project was built in three weeks during the [Insight Data Science Program] [Insight]. I enjoyed learning and implementing new technologies to create **beersomme**. Building this project gave me the opportunity to learn and apply new techniques including natural language processing, recommender systems, and web scraping. Enjoy drinking awesome beer using **beersomme**!
 
 If you have any questions about this project feel free to contact me at [jonathan.eckel@gmail.com](mailto:jonathan.eckel@gmail.com) or tweet me at [@jonathan_eckel](http://twitter.com/jonathan_eckel).  Or dive into the code on [GitHub](https://github.com/jonathan-eckel/beersomme).
-

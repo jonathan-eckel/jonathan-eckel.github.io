@@ -19,33 +19,31 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Jonathan Eckel
-subtitle: Data Scientist
+# subtitle: Data Scientist
 email: jonathan.eckel@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
   name: Jonathan Eckel
   avatar: "/assets/img/bio-photo.jpg"
-  bio: "this is my bio"
-  location: "Somewhere"
+  bio: >-
+    Data Scientist
+  location: "Brooklyn, NY"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jonathan_eckel"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jonathan-eckel"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jonathan-eckel"
-
-
-# twitter_username: jonathan_eckel
-# github_username:  jonathan-eckel
-linkedin_username: jonathan-eckel
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jonathan_eckel"
 
 # Build settings
 plugins:
@@ -71,7 +69,12 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
       author_profile: true
+      show_date: true
+      read_time: true
+      comments: true
+      share: true
   # _pages
   - scope:
       path: ""
@@ -80,12 +83,7 @@ defaults:
       layout: single
       author_profile: true
 
-
 include: ["_pages"]
-
-# header_pages:
-#   - projects
-#   - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
