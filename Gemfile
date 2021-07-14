@@ -6,7 +6,7 @@ gem "github-pages", "~> 215", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-remote-theme"
-  gem "jekyll-target-blank"
+  # gem "jekyll-target-blank"  # gh pages only allows whitelisted plugins
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

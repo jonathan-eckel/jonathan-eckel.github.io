@@ -49,7 +49,7 @@ author:
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
-  - jekyll-target-blank
+  # - jekyll-target-blank  # gh pages only allows whitelisted plugins
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
